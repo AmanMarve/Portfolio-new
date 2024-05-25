@@ -177,7 +177,8 @@
                     <a href="Aman CV.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form name="submit-to-google-sheet">
+                    <form name="submit-to-google-sheet" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="7b7c4032-d8d6-47db-8b7b-eff870ab3998">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="text" name="email" placeholder="Your email" required>
                         <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
